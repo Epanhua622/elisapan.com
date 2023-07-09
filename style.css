@@ -128,7 +128,8 @@ body.cv main {
 
 /* Documents = Computing Systems and Circuit Analysis styles */
 #computing-systems,
-#circuit-analysis {
+#circuit-analysis,
+#relational-databases {
   display: inline-block;
   width: 37%;
   margin: 10px;
@@ -186,14 +187,16 @@ body.cv main {
 /* Media queries for responsive layout */
 @media only screen and (max-width: 1200px) {
   #computing-systems,
-  #circuit-analysis {
+  #circuit-analysis,
+  #relational-databases {
     width: 50%;
   }
 }
 
 @media only screen and (max-width: 768px) {
   #computing-systems,
-  #circuit-analysis {
+  #circuit-analysis,
+  #relational-databases {
     width: 100
   }
 }
